@@ -1,6 +1,14 @@
 .custom-hr{
-    
-    background-color:black !important;
-    box-shadow: inset 0 0 0 9999px black; 
-    height: 2px;
+    height: 4px; /* Define a altura da linha */
+    box-shadow: 0 2px 0 0 black; /* Adiciona uma sombra preta para simular uma linha */
+    margin: 5px 0; /* Adiciona margem superior e inferior para espaçamento */
+    border: none; /* Remove a borda */
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
 }
