@@ -57,3 +57,31 @@
     border-width: 2px;
     border-style: solid;
 }
+
+#section1{
+    background-color: #f0efef;
+}
+
+#section2{
+    background-color: #141414;
+    color: #f0efef;
+}
+
+.subtitle{
+    font-family: 'Florencesans SC Black', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 70px;
+}
+
+#eusou{
+    padding-top: 70px;
+}
+
+.container {
+    margin: 0;
+    padding-left: 15px; 
+}
+
+#subtitle{
+}
