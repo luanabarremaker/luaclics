@@ -1,14 +1,21 @@
-.custom-hr{
-    height: 4px; /* Define a altura da linha */
-    box-shadow: 0 2px 0 0 black; /* Adiciona uma sombra preta para simular uma linha */
-    margin: 5px 0; /* Adiciona margem superior e inferior para espaçamento */
-    border: none; /* Remove a borda */
+.title{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 50px;
+    margin-right: 100px; /* Adicionando uma margem à direita para separar o título da barra de navegação */
+    margin-bottom: 0; /* Remover margem inferior do título */
 }
 
-a{
-    color: black;
+.nav-item{
+    font-weight: 700;
+    font-style: normal;
 }
 
-a:hover{
-    color: blue;
+.navbar-nav {
+    padding-right: 70px; /* Adicione espaçamento interno à direita */
+    font-family: 'Florencesans SC Black', sans-serif;;
+}
+.nav-item {
+    padding-left: 70px; /* Adicione espaçamento interno à esquerda */
 }
