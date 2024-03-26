@@ -13,9 +13,47 @@
 }
 
 .navbar-nav {
-    padding-right: 70px; /* Adicione espaçamento interno à direita */
-    font-family: 'Florencesans SC Black', sans-serif;;
+    padding-right: 70px;
+    font-family: 'Florencesans SC Black', sans-serif;
 }
 .nav-item {
-    padding-left: 70px; /* Adicione espaçamento interno à esquerda */
+    padding-left: 70px;
+}
+
+.texto{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.button{
+    /*Cor e fonte*/
+    background-color: #141414;
+    color: #f0efef;
+    font-family: 'Libre Baskerville',serif;
+    font-size: 15px;
+
+    /*Borda*/
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /*Posição*/
+    margin-left: 75px;
+    margin-top: 2px;
+
+    /*Detalhes*/
+    text-decoration: none;
+}
+
+.button:hover{
+    color: #141414;
+    background-color: #f0efef;
+    border: #141414;
+    border-width: 2px;
+    border-style: solid;
 }
