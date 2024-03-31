@@ -20,45 +20,47 @@
     <title>Lua Clics Portfólio</title>
 </head>
 <body>
+
     <header class="header">
 
-        <div class="navbar navbar-expand-lg d-flex justify-content-start align-items-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
             <!-- Título Lua Clics à esquerda -->
             <div class="navbar-brand">
                 <h2 class="title p-3">Lua Clics</h2>
             </div>
 
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-items" aria-controls="nav-items" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
             <!-- Barra de Navegação no centro -->
-            <nav class="navbar">
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sobre">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#imagens">Imagens</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#linkedin">LinkedIn</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/luaclics/" target="_blank">@luaclics</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+            <div id="nav-items" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#imagens">Imagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#linkedin">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/luaclics/" target="_blank">@luaclics</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <section id="section1" class="d-flex align-items-center">
 
         <div>
-            <img src="./Imagens/luz verde.JPG" alt="janela com luz verde" height="500px">
+            <img id="imagemSec1" src="./Imagens/luz verde.JPG" alt="janela com luz verde" height="500px">
         </div>
      
-        <div class="col">
+        <div id="introducao">
             <h1 class="title">Conheça meu lado artístico, e talvez o seu também</h1>
 
             <br>
@@ -70,27 +72,111 @@
         </div>
     </section>
 
-    <section id="section2" class="">
+    
+    <section id="section2">
 
-            <div>
-
-                <div>
-                    <div id="eusou">
+        <section id="section2-2">
+            <div class="sobremim">
+                <div class="row no-gutters">
+                    
+                    <div id="eusou" class="col-md-6">
                         <h1 class="title">Mas quem sou eu?</h1>
-                        <br>
-                        <p class="texto">Algum texto sobre mim...</p>
                     </div>
+
+                    <div id="subtitle" class="col-md-6">
+                        <h2 class="subtitle">Estudante de Eng. de Software<br>Fotógrafa entusiasta<br>Mãe de pet</h2>
+                    </div>
+
+                </div>
+            </div>
+        </section>
         
-                    <div id="subtitle">
-                        <div>
-                            <h2 class="subtitle">Estudante de Eng. de Software<br>Fotógrafa entusiasta<br>Mãe de pet</h2>
+    
+        <section class="row" id="section2-3">
+
+            <div class="col-md-6">
+                <p id="parSobre">
+                    Então... Me chamo Luana Barremaker Ruschel de Freitas Lima. Sou mãe de gatos, gosto de livros, programação e sou uma fotógrafa entusiasta. Estudo Engenharia de Software na Faculdade Digital Descomplica. Minha paixão pela programação começou inesperadamente durante um estágio hospitalar, quando percebi que a administração não era minha vocação.
+                    <br><br>
+                    Desde então, tenho explorado a programação em diversos cursos e projetos desafiadores (esse é um deles). A fotografia sempre foi uma paixão e a ideia de combinar programação e imagens me inspirou a criar esta página. Aqui, compartilho meu mundo, desenvolvendo minhas habilidades em programação enquanto exponho meu amor pela fotografia. Seja bem-vindo(a) e espero que goste!
+                    <br><br>
+
+                    <p id="italico">
+                        <i>
+                            Utilizando os conhecimentos do primeiro semestre em Desenvolvimento Frontend e UX Design, estou iniciando um projeto pessoal para aprimorar minhas habilidades. Este projeto é uma oportunidade de aplicar conceitos aprendidos e explorar novas técnicas nesse campo em constante evolução. Estou aberta a feedbacks e sugestões, que podem ser enviados por e-mail. Seu retorno será valorizado e contribuirá para o desenvolvimento deste projeto. Agradeço antecipadamente pela colaboração e aguardo suas contribuições.
+                        </i>
+                    </p>
+                    
+                </p>
+                <br>
+
+                <div class="container-buttons button-container">
+                    <div class="row justify-content-end">
+                        <div class="col-md-4">
+                            <a class="button2" href="https://www.linkedin.com/" target="_blank">Meu LinkedIn</a>
+                        </div>
+    
+                        <div class="col-md-5">
+                            <a class="button3" href="faculdadeluana24@gmail.com" target="_blank">Meu E-mail</a>
                         </div>
                     </div>
                 </div>
-        
+                
+
             </div>
 
+
+            <div class="col-md-6">
+                <div class="row justify-content-end">
+                    <div id="imagem-container">
+                        <img id="imagem" src="./Imagens/autoimagem.jpg" alt="pessoa Luana" height="500px">
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+       
     </section>
+
+    <section id="section3">
+
+        <div class="container text-center" id="secaoFotos">
+            <h2 id="title2">Algumas fotos de minha autoria</h2>
+            <br>
+            <p id="texto2">Aqui, exponho minha visão artística do mundo. Momentos que admirei e senti que deveriam ser eternos, e aqui estou eu, os eternizando. Aprecie.</p>
+
+        </div>
+
+        <div class="row">
+            <div class="photo1">
+                <img src="./Imagens/arvore.jpg" width="400px">
+            </div>
+
+            <div class="photo2">
+
+            </div>
+
+            <div class="photo3">
+
+            </div>
+        </div>
+
+    </section>
+    
+    <div class="mini-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright-text">
+                <p>© 2024
+                  <a href="#">LuaClics</a>. All rights reserved. Created by
+                  <a href="#">Luana Barremaker</a>
+                </p>
+              </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 <!--Link Bootstrap-->

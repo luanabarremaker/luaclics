@@ -1,26 +1,139 @@
-.title{
+@media (max-width: 1022px) {
+
+    body{
+        margin-right: 0 !important;
+    }
+
+    .title.p-3{
+        margin-left: 0 !important;
+    }
+
+    #section1 {
+        flex-direction: column;
+    }
+
+    #section1 .col-md-6 {
+        width: auto;
+    }
+
+    #introducao{
+        margin-bottom: 20px;
+    }
+
+    #imagemSec1 {
+        height: 430px;
+        margin-bottom: 20px;
+    }
+
+    .subtitle {
+        display: none;
+
+    }
+
+    #section2{
+        padding-bottom: 0px !important;
+    }
+
+    #eusou {
+        text-align: left;
+        /* Centraliza o texto "Mas quem sou eu?" */
+    }
+
+    #parSobre {
+        margin-top: 20px;
+        padding-left: 3px;
+        /* Ajusta a margem esquerda do parágrafo */
+        padding-right: 20px;
+        /* Ajusta a margem direita do parágrafo */
+    }
+    
+    .button2,
+    .button3 {
+        width: 50%; /* Definir a largura como automática */
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; /* Adicionar espaçamento acima dos botões */
+        margin-left: 140px; /* Adicionar margem à esquerda para separar os botões */
+        margin-bottom: 10px;
+    }
+    
+
+    #imagem {
+        padding: 0;
+        display: block;
+        /* Garante que a imagem seja exibida como bloco */
+        max-width: 100%;
+        /* Garante que a imagem não ultrapasse a largura do contêiner */
+        height: 100%;
+        /* Mantém a proporção da imagem */
+        margin-bottom: 0;
+
+    }
+
+    #secaoFotos{
+        padding-left: 0 !important;
+    }
+
+
+}
+
+
+body {
+    min-height: 100vh;
+    /* 100% da altura da viewport */
+    overflow-x: hidden;
+    /* Desabilita a barra de rolagem vertical */
+    padding-right: 0;
+}
+
+
+
+.title {
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
     font-style: normal;
     margin-left: 50px;
-    margin-right: 100px; /* Adicionando uma margem à direita para separar o título da barra de navegação */
-    margin-bottom: 0; /* Remover margem inferior do título */
+    margin-bottom: 0;
+    /* Remover margem inferior do título */
 }
 
-.nav-item{
+.nav-item {
     font-weight: 700;
     font-style: normal;
+    margin-left: 20px;
+    /* Adicionando uma margem à esquerda para separar os itens de navegação */
 }
 
 .navbar-nav {
     padding-right: 70px;
     font-family: 'Florencesans SC Black', sans-serif;
 }
+
+/* Estilizando o botão de toggle da barra de navegação */
+.navbar-toggler {
+    margin-right: 10px;
+    border: none; /* Remover a borda padrão */
+    background-color: transparent; /* Remover o plano de fundo */
+    outline: none !important; /* Remover a borda de foco */
+    box-shadow: none !important; /* Remover sombra */
+}
+
+/* Estilizando o ícone do botão de toggle quando o menu está colapsado */
+.navbar-toggler-icon.collapsed {
+    outline: none !important; /* Remover a borda de foco */
+    box-shadow: none !important; /* Remover sombra */
+}
+
+
 .nav-item {
     padding-left: 70px;
 }
 
-.texto{
+#nav-items {
+    justify-content: center;
+}
+
+.texto {
     font-family: "Libre Baskerville", serif;
     font-weight: 400;
     font-style: normal;
@@ -28,11 +141,11 @@
     margin-right: 40px;
 }
 
-.button{
+.button {
     /*Cor e fonte*/
     background-color: #141414;
     color: #f0efef;
-    font-family: 'Libre Baskerville',serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 15px;
 
     /*Borda*/
@@ -50,7 +163,7 @@
     text-decoration: none;
 }
 
-.button:hover{
+.button:hover {
     color: #141414;
     background-color: #f0efef;
     border: #141414;
@@ -58,30 +171,155 @@
     border-style: solid;
 }
 
-#section1{
+#section1 {
     background-color: #f0efef;
 }
 
-#section2{
+#section2 {
     background-color: #141414;
     color: #f0efef;
+    padding-bottom: 20px;
+
 }
 
-.subtitle{
+.subtitle {
     font-family: 'Florencesans SC Black', sans-serif;
     font-size: 20px;
     text-align: right;
-    padding-top: 70px;
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 10px;
 }
 
-#eusou{
-    padding-top: 70px;
+#eusou {
+    padding-top: 80px;
 }
 
 .container {
     margin: 0;
-    padding-left: 15px; 
+    padding-left: 15px;
 }
 
-#subtitle{
+.sobremim {
+    margin-left: 70x;
 }
+
+#div-img {
+    padding-right: 0;
+}
+
+#imagem {
+    margin-right: 90px;
+}
+
+
+#parSobre {
+    margin-left: 80px;
+}
+
+.button2 {
+    /*Cor e fonte*/
+    background-color: #f0efef;
+    color: #141414;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+
+    /*Borda*/
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /*Detalhes*/
+    text-decoration: none;
+}
+
+.button2:hover {
+    color: #f0efef;
+    background-color: #141414;
+    border: #f0efef;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#italico {
+    font-size: 13px;
+    margin-left: 90px;
+}
+
+.button3 {
+    /*Cor e fonte*/
+    background-color: #f0efef;
+    color: #141414;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+
+    /*Borda*/
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    /*Detalhes*/
+    text-decoration: none;
+}
+
+.button3:hover {
+    color: #f0efef;
+    background-color: #141414;
+    border: #f0efef;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#imagem-container {
+    text-align: right;
+    /* Alinha a imagem à esquerda */
+}
+
+#section3{
+    background-color: #f0efef;
+    padding-top: 100px;
+    padding-right: none !important;
+}
+
+#title2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#texto2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#secaoFotos{
+    padding-left: 200px;
+}
+
+
+
+
+
+
+.mini-footer {
+    background:#141414;
+    text-align:center;
+    padding:32px 0
+   }
+   .mini-footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#f0efef
+   }
+   .mini-footer p a {
+    color:#5867dd
+   }
+   .mini-footer p a:hover {
+    color:#34bfa
+    }
