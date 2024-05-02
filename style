@@ -85,26 +85,6 @@
 
 }
 
-.dark-mode { 
-
-    body {background-color: #f0efef;}
-
-    #section1 {
-        background-color: #313131;
-    }
-    
-    #section2 {
-        background-color: #141414;
-        color: #f0efef;
-        padding-bottom: 20px;
-    
-    }
-
-    #section3{
-        background-color: #313131;
-    }
-}
-
 
 body {
     min-height: 100vh;
@@ -301,7 +281,6 @@ body {
 
 #imagem-container {
     text-align: right;
-    padding-right: 90px;
     /* Alinha a imagem à esquerda */
 }
 
@@ -332,7 +311,7 @@ body {
 .mini-footer {
     background:#141414;
     text-align:center;
-    padding:32px 0 23px 82px;
+    padding:32px 0 23px 32px;
 
 }
 
