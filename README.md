@@ -14,6 +14,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 <br>
 <br>
+
 ## ☕ Acessando o portfólio
 
 Para acessar o portfólio Lua Clics, siga estas etapas:
