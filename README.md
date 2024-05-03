@@ -13,13 +13,11 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Buscar o motivo da margem direita ao longo da página para dispositivos móveis;
 
 <br>
-<br>
 
 ## ☕ Acessando o portfólio
 
 Para acessar o portfólio Lua Clics, você pode clicar nesse link: <a href="luanabarremaker.github.io/luaclics/">luanabarremaker.github.io/luaclics/</a>
 
-<br>
 <br>
 
 ## 📫 Contribuindo para o portfólio
@@ -35,13 +33,11 @@ Para contribuir com esse projeto, siga estas etapas:
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 <br>
-<br>
 
 ## 😄 Seja um dos contribuidores
 
 Quer fazer parte desse projeto? <a href="https://mail.google.com/mail/?view=cm&to=faculdadeluana24@gmail.com&body=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20sobre..." target="_blank">Me envie um e-mail!</a>
 
-<br>
 <br>
 
 ## 📝 Licença
