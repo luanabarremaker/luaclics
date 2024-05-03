@@ -42,4 +42,4 @@ Quer fazer parte desse projeto? <a href="https://mail.google.com/mail/?view=cm&t
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
