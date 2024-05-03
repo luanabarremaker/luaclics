@@ -24,7 +24,7 @@ Para acessar o portfólio Lua Clics, você pode clicar nesse link: <a href="luan
 
 ## 📫 Contribuindo para o portfólio
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com esse projeto, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
