@@ -1,4 +1,4 @@
-// Função para alternar entre os modos claro e escuro
+// Função para dark mode
 function toggleDarkMode() {
     document.body.classList.toggle('dark-mode');
 }
