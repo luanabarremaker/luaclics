@@ -12,8 +12,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Melhorar espaçamento de imagens para dispositivos móveis;
 - [ ] Buscar o motivo da margem direita ao longo da página para dispositivos móveis;
 
-
-
+<br>
+<br>
 ## ☕ Acessando o portfólio
 
 Para acessar o portfólio Lua Clics, siga estas etapas:
