@@ -4,7 +4,7 @@
 
 >Explorando programação nesse projeto, combinando-a com fotografia. Compartilho meu mundo, desenvolvendo habilidades em programação e expondo meu amor pela fotografia.
 
-### Ajustes e melhorias
+### Ajustes e melhorias 🛠⚙
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
@@ -24,7 +24,7 @@ Aqui no GitHub, dentro do repositório, na lateral superior direita, você encon
 <br>
 <br>
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para o portfólio
 
 Para contribuir com <nome_do_projeto>, siga estas etapas:
 
