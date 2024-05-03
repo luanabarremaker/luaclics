@@ -17,7 +17,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## ☕ Acessando o portfólio
 
-Para acessar o portfólio Lua Clics, você pode acessar esse link: <a href="luanabarremaker.github.io/luaclics/">luanabarremaker.github.io/luaclics/</a>
+Para acessar o portfólio Lua Clics, você pode acessar por esse link: <a href="luanabarremaker.github.io/luaclics/">luanabarremaker.github.io/luaclics/</a>
 
 <br>
 <br>
