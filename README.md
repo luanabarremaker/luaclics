@@ -1,4 +1,4 @@
-# Portfólio Lua Clics
+# Bem-vindo(a) ao Portfólio Lua Clics! 💻📸
 
 <img src="Imagens/Preview.png" alt="Preview Web">
 
@@ -17,9 +17,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## ☕ Acessando o portfólio
 
-Para acessar o portfólio Lua Clics, siga estas etapas:
-
-Aqui no GitHub, dentro do repositório, na lateral superior direita, você encontra a aba "Sobre". Nela, você encontra o link que direciona direto para o site.
+Para acessar o portfólio Lua Clics, você pode acessar esse link: <a href="luanabarremaker.github.io/luaclics/">luanabarremaker.github.io/luaclics/</a>
 
 <br>
 <br>
