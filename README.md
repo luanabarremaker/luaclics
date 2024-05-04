@@ -12,8 +12,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Melhorar espaçamento de imagens para dispositivos móveis;
 - [ ] Buscar o motivo da margem direita ao longo da página para dispositivos móveis;
 - [ ] Centralizar o footer;
-- [ ] 
-
+      
 <br>
 
 ## ☕ Acessando o portfólio
