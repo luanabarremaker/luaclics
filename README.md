@@ -16,6 +16,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Arrumar o link do Linkedin da nav;
 - [ ] Arrumar o link das imagens da nav;
 - [ ] Aumentar o espaçamento inferior da seção 2;
+- [ ] Alterar imagem pessoal.
       
 <br>
 
