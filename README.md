@@ -13,6 +13,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Buscar o motivo da margem direita ao longo da página para dispositivos móveis;
 - [ ] Centralizar o footer;
 - [ ] Criar uma forma de clicar nas imagens para vê-las de mais perto;
+- [ ] Arrumar o link do Linkedin da nav;
       
 <br>
 
